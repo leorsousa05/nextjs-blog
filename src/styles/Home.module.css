@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+    height: 100%;
 }
 
 .main {
@@ -112,18 +112,5 @@
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
   }
 }
